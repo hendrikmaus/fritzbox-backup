@@ -4,6 +4,8 @@ Backup your fritz.box configuration.
 
 ## Usage
 
+_Tested on Linux._
+
 ```sh
 $ ./fritzbox-backup-export.sh --help
 
