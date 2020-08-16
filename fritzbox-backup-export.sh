@@ -59,6 +59,10 @@ while [ $# -gt 0 ] ; do
         path="$2"
         shift
         ;;
+    --host)
+        host="$2"
+        shift
+        ;;
     -*)
         usage "Unknown option '$1'"
         ;;
